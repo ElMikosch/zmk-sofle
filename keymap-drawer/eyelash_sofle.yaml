@@ -58,9 +58,9 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - LAYER2
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - LAYER1
   - $$mdi:apple-keyboard-shift$$
@@ -105,8 +105,8 @@ layers:
   - +
   - '*'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - RGB ON
-  - RGB OFF
+  - '&bl BL_ON'
+  - '&bl BL_OFF'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '{'
