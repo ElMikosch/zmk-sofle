@@ -38,7 +38,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
+  - {t: ;, h: LEFT WIN, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -165,8 +165,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - '{'
   - '}'
