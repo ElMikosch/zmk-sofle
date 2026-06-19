@@ -46,6 +46,16 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        GamingMode {
+            bindings = <&tog 3>;
+            key-positions = <0 12>;
+            layers = <0 3>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -88,10 +98,10 @@
             label = "LAYER2";
         };
 
-        layer_3 {
+        GAMING {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp W   &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp A   &kp S   &kp D   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
