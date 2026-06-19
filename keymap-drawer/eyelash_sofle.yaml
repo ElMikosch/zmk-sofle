@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  LAYER3:
+  GAMING:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -327,7 +327,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [0, 12]
-  k: {t: LAYER3, h: toggle}
-  l: [MAIN, LAYER3]
+  k: {t: GAMING, h: toggle}
+  l: [MAIN, GAMING]
 - p: [14, 28, 40]
   k: '&soft_off'
